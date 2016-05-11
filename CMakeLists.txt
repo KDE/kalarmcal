@@ -18,7 +18,7 @@ include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(ECMQtDeclareLoggingCategory)
 
 set(KF5_VERSION "5.19.0")
-set(KALARM_LIB_VERSION "5.2.1")
+set(KALARM_LIB_VERSION "5.2.2")
 set(CALENDARCORE_LIB_VERSION "5.2.0")
 set(HOLIDAY_LIB_VERSION "5.2.0")
 set(IDENTITYMANAGER_LIB_VERSION "5.2.0")
