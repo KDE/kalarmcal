@@ -24,9 +24,9 @@ include(ECMAddQch)
 option(BUILD_QCH "Build API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)" OFF)
 add_feature_info(QCH ${BUILD_QCH} "API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop)")
 
-set(CALENDARUTILS_LIB_VERSION "5.19.1")
-set(IDENTITYMANAGER_LIB_VERSION "5.19.1")
-set(AKONADI_LIB_VERSION "5.19.1")
+set(CALENDARUTILS_LIB_VERSION "5.19.2")
+set(IDENTITYMANAGER_LIB_VERSION "5.19.2")
+set(AKONADI_LIB_VERSION "5.19.2")
 ecm_setup_version(PROJECT VARIABLE_PREFIX KALARMCAL
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kalarmcal_version.h"
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5AlarmCalendarConfigVersion.cmake"
